@@ -1,13 +1,13 @@
 <html>
 <head>
-  <title>RadioKit JS Toolkit Playback Demo</title>
+  <title>Radiojazz Player Demo</title>
   <meta charset="utf-8">
   <script src="core-promise.js"></script>
   <script src="radiokit-toolkit-playback.js"></script>
 
   <script>
   function init() {
-    window.player = new RadioKitToolkitPlayback.Channel.Player("fd9a7d1c-a387-40a0-b876-2799668d6f9d", "123");
+    window.player = new RadioKitToolkitPlayback.Channel.Player("b4b03c05-6d82-42d6-89ce-b1f822836ccf", "123");
     window.player.on('track-playback-started', function(track) {
       document.getElementById('track-id').innerHTML = 'TRACK ID: ' + track.getId();
 
